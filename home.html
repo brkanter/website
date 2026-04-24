@@ -31,8 +31,10 @@
       	display: block; margin-left: 8%; margin-right: 8%; 
 	}
     .wrapCenter {
-		text-align: center;
-      	display: block; margin-left: auto; margin-right: auto; 
+	  display: flex;
+	  justify-content: center;   /* keep group centered */
+	  align-items: center;
+	  gap: 10px;
 	}
 
 	.icons {
@@ -200,11 +202,20 @@
 	<br>
 	
 	<div class="wrapCenter">
-		<img src="mouseArt.png" alt="Sorry, image cannot be displayed" style="width: 450px;height: 568px;">
-		<p style="font-size: 80%;">
-			Original artwork by Ann Mari Amundsgård
-		</p>
+	    <a target="_blank" href="baby_deer_mice.jpg">
+	        <img src="baby_deer_mice.jpg" style="width: 300px; height: auto;">
+	    </a>
+	    <a target="_blank" href="mouseArt.png">
+	        <img src="mouseArt.png" style="width: 400px; height: auto;">
+	    </a>
+	    <a target="_blank" href="deer_mouse.jpg">
+	        <img src="deer_mouse.jpg" style="width: 300px; height: auto;">
+	    </a>
 	</div>
+
+	<p style="text-align:center; font-size: 80%;">
+    	Original artwork by Ann Mari Amundsgård
+	</p>
 
 </body>
 
